@@ -1,2 +1,30 @@
-# Netflix_Clone
-This project replicates Netflix's homepage using HTML, CSS, and JavaScript, enriching it with interactive features through the TMDB API. It enables users to browse and discover trending movies and TV shows seamlessly integrated into the design. The layout closely resembles Netflix's aesthetic, providing a familiar user experience. JavaScript ensures smooth navigation and dynamic content loading, enhancing engagement. Developers can study its structure, styling techniques, and API integration for learning purposes or contribute to its evolution. This project serves as a practical playground for aspiring developers to sharpen their skills while recreating a popular web interface.
+## 🎬 Netflix Clone with TMDB API
+
+This project recreates the **Netflix homepage UI** using **HTML, CSS, and JavaScript**, enhanced with **TMDB API integration** to dynamically display real movie and TV show data. Though there are **no clickable features**, the project demonstrates **live banner updates and poster rows** based on genres and categories.
+
+### ✨ Key Features
+
+* 🎥 Real-time movie & TV data via **TMDB API**
+* 🖼️ Dynamic homepage banner that updates on every reload
+* 📂 Multiple category rows (Trending, Action, Comedy, etc.)
+* 💻 Responsive layout mimicking Netflix design
+* 💡 Great for beginners exploring API use in frontend projects
+
+### 🛠️ Tech Stack
+
+* **Frontend**: HTML, CSS, JavaScript
+* **API**: TMDB (The Movie Database)
+
+### 🚀 Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ishivaniyadav/netflix-clone.git
+   ```
+2. Open `index.html` in a browser to view the UI.
+
+---
+
+> 📌 *This is a static frontend project with dynamic content rendering but no interactive functionality.*
+
