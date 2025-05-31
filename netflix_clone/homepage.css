@@ -101,7 +101,6 @@
       #111
     );
   }
-
   .row{
     margin-left: 20px;
     color: white;
@@ -121,10 +120,9 @@
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
-
   }
   .row__poster:hover{
-    transform: scale(1.68);
+    transform: scale(1.2);
   }
   .row__posterLarge, 
   .row__posterLarge1,
@@ -134,12 +132,10 @@
     max-height: 350px;
     margin-right: 10px;
     transition: transform 500ms;
-
   }
   .row__posterLarge:hover,
   .row__posterLarge1:hover,
   .row__posterLarge2:hover{
-    transform: scale(1.68);
+    transform: scale(1.1);
     opacity: 1;
-
   }
