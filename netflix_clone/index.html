@@ -9,7 +9,6 @@
      <script src="script2.js"></script>
   </head>
   <body>
-    <!-- navbar -->
     <div class="nav">
       <div class="nav__left">
         <a href="index.html">
@@ -19,8 +18,6 @@
         <img src="./images/avatar.jpeg" class="nav_avatar" alt="">
       </div>
     </div>
-
-    <!-- banner -->
     <header id="banner">
       <div id="banner__contents">
         <h1 id="banner__title"></h1>
@@ -32,21 +29,11 @@
       </div>
       <div id="banner__fadeBottom"></div>
     </header>
-
-    <!-- row -->
     <div id="headrow">
       <div class="row">
         <h2 class="row__title"></h2>
         <div class="row__posters"> </div>
       </div>
     </div>
-
-    <script>
-      window.addEventListener("scroll",function(){
-
-        var nav = document.querySelector(".nav");
-        nav.classList.toggle("active", window.scrollY > 0);
-      }) 
-    </script> 
   </body>
 </html
